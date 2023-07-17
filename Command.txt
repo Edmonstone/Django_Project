@@ -1,0 +1,13 @@
+python -m django startproject smartnotes .
+
+python -m django startapp home
+
+python manage.py runserver
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+ren - Ren@123!
+
+python manage.py shell #command line prompt of django
